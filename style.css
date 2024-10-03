@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 100vh;
+    background-color: #EEE;
+    border: 16px solid #D8D8D8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.card{
+    width: 360px;
+    background-color: white;
+    border-radius: 16px;
+}
+.card-background{
+    width: 100%;
+    height: 216px;
+    background-image: url(./images/Pizza\ Photo.png);
+    position: relative;
+}
+.tortellini{
+    background-image: url(./images/Tortellini\ Photo.jpg);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+.strawberry{
+    background-image: url(./images/Strawberry\ cake\ Photo.png);
+}
+.icon{
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    width: 50px;
+    height: 50px;
+}
+.card-content{
+    width: 100%;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.content-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-icons{
+    display: flex;
+    gap: 15px;
+}
+.fire-icon, .wheat-icon, .leaf-icon{
+   width: 28px;
+   height: 28px;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.fire-icon{
+    background-color: #F8593B;    
+}
+.wheat-icon{
+    background-color: #FFC22B;
+}
+.leaf-icon{
+    background-color: #2ECC71;
+}
+.content-heading{
+    font-size: 24px;
+
+}
+.card-description{
+    font-size: 16px;
+    color: #6E798C;
+    line-height: 25px;
+}
+.card-second-description{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-second-description span{
+    color: #A5ADBB;
+    font-size: 15px;
+}
+.order{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.prices{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.price{
+    color: #081F32;
+    font-size: 28px;
+}
+.discount{
+    font-size: 20px;
+    color: #F8593B;
+    text-decoration: line-through;
+}
+.order-btn{
+    width: 114px;
+    height: 44px;
+    background-color: #2ECC71;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 4px;
+    border-radius: 4px;
+}
